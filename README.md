@@ -1,7 +1,7 @@
 # UltimateBravery
 
 ## Apraksts 
-  Programma kas ir domāta priekš spēles "League of Legends" 
+  Programma kas ir domāta priekš spēles "League of Legends". 
   Tā pēc nejaušības principa uzrādīs lietotājam kas viņam ir nākamajā mačā jāpērk uz sava personāža.
   Šāda mājaslapa jau pastāv: https://ultimate-bravery.net/ , bet es vēlētos pamēģināt to uztaisīt ar c++
   
