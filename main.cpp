@@ -13,6 +13,8 @@ main ()
   using namespace std::this_thread; 
   using namespace std::chrono; 
 
+  const char *lane[5] =
+  {"Top", "Jungle", "Mid", "Support", "Bottom"};
   const char *champion[156] =
   { "Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Amumu", "Anivia",
 "Annie", "Aphelios", "Ashe", "Aurelion Sol", "Azir", "Bard", "Blitzcrank", "Brand", "Braum",
@@ -64,6 +66,13 @@ main ()
   srand(time(NULL));
   champ = rand () % 156 + 1;
   std::cout << champion[champ] << std::endl;
+  sleep_for(nanoseconds(1));
+  sleep_until(system_clock::now() + seconds(1));
+
+  int role;
+  srand(time(NULL));
+  role = rand () % 4 + 1;
+  std::cout << lane[role] << std::endl;
   sleep_for(nanoseconds(1));
   sleep_until(system_clock::now() + seconds(1));
 
