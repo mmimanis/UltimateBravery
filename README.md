@@ -10,7 +10,7 @@
   - Spēlētāja lomu (Top, Jg, Mid, ADC, Support)
   - Spēlētāja personāžu (157 dažādi personāži)
   - Spēlētāja Rūnas (1 galvenā nozare ar 4 perkiem no tās, sekundārā nozare ar 2 perkiem no tās, 3 statu perki)
-  - Spēlētāja Pērkamo priekšmetu saraksts (Sastāv no 6 priekšmetiem, 1 no 23 Mythic priekšmetiem, 4 no 68 Legendary priekšmetiem, 1 no 7 zābakiem)
+  - Spēlētāja Pērkamo priekšmetu saraksts (Sastāv no 6 priekšmetiem, 1 no 25 Mythic priekšmetiem, 4 no 72 Legendary priekšmetiem, 1 no 7 zābakiem)
 
 ## Izmantotās tehnoloģijas
   - C++
